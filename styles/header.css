@@ -1,0 +1,33 @@
+.header {
+    padding-top: 30px;
+}
+
+.Go {
+    width: 120px;
+    height: 66px;
+}
+
+.bron-button {
+    width: 280px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.header-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-list {
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+}
+
+.info-list__item {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 50px;
+}

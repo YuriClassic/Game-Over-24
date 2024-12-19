@@ -1,0 +1,31 @@
+.border {}
+
+.section__title {
+    margin-bottom: 40px;
+}
+
+.block {
+    display: flex;
+    position: relative;
+    vertical-align: top;
+    width: 1180px;
+    height: 692px;
+}
+
+.block-one {
+    width: 600px;
+    height: 596px;
+    margin-right: 80px;
+}
+
+.block-two {
+    width: 500px;
+    height: 222px;
+    display: inline-block;
+    margin-bottom: 48px;
+}
+
+.block-three {
+    width: 500px;
+    height: 325px;
+}

@@ -1,0 +1,224 @@
+.banner {
+    position: relative;
+    height: 823px;
+}
+
+.banner:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../img/game_over.png);
+    display: block;
+    width: 675px;
+    height: 762px;
+}
+
+.banner__title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 150px;
+    text-transform: uppercase;
+    letter-spacing: -0.1em;
+}
+
+.banner__subtitle {
+    font-size: 28px;
+    line-height: 50px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
+.banner-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.banner-list__item-one {
+    height: 209px;
+}
+
+.banner-list__item-two {
+    height: 174px;
+    text-align: center;
+    align-self: self-end;
+}
+
+.banner-link {
+    position: absolute;
+    left: 539px;
+    bottom: 90px;
+    z-index: 5;
+    border-radius: 50px;
+}
+
+.banner-link>svg {
+    fill: transparent;
+    transition: .3s;
+}
+
+.banner-link:hover {
+    background-color: var(--main-color, #fff);
+    border-color: 1px solid var(--main-color, #fff);
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.banner-link:hover>svg {
+    color: var(--main-menu-bg, #6C0287);
+    transition: .3s;
+}
+
+.banner-link:active {
+    background-color: var(--main-purple-light, #CD06FF);
+    border-color: 1px solid var(--main-purple-light, #CD06FF);
+    border-radius: 50px;
+    transition: .6s;
+}
+
+.banner-link:active>svg {
+    color: var(--main-color, #fff);
+    transition: .6s;
+}
+
+.banner-link:focus> {
+    border-color: 1px solid var(--main-color, #fff);
+    color: var(--main-color, #fff);
+    border-radius: 50px;
+    transition: .9s;
+}
+
+.banner-link:focus>svg {
+    color: var(--main-color, #fff);
+    transition: .9s;
+}
+
+.button-item {
+    width: 280px;
+    height: 55px;
+    border-radius: 10px;
+    border: 3px solid var(--main-purple-light, #CD06FF);
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--main-color, #fff);
+}
+
+.button-item:hover {
+    background-color: var(--main-menu-bg, #6C0287);
+    border-color: 3px solid var(--main-menu-bg, #6C0287);
+    color: var(--main-color, #fff);
+    transition: .3s;
+}
+
+.button-item:active {
+    background-color: var(--main-indigo, #640AA3);
+    border-color: 1px solid var(--main-dark, #1b1a1b);
+    color: var(--main-color, #fff);
+    transition: .6s;
+}
+
+.button-item:focus {
+    background-color: var(--main-menu-bg, #6C0287);
+    color: var(--main-color, #fff);
+    transition: .9s;
+}
+
+.button-link {
+    width: 374px;
+    height: 80px;
+    padding: 1em 2.75em;
+    border-radius: 10px;
+    background-color: var(--main-menu-bg, #6C0287);
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--main-color, #fff);
+    backdrop-filter: blur(20px)
+}
+
+.button-link:hover {
+    background-color: var(--main-dark-magenta, #840AA3);
+    color: var(--main-color, #fff);
+    transition: .3s;
+}
+
+.button-link:active {
+    background-color: var(--main-indigo, #640AA3);
+    color: var(--main-color, #fff);
+    transition: .6s;
+}
+
+.button-link:focus {
+    background-color: var(--main-dark-magenta, #840AA3);
+    color: var(--main-color, #fff);
+    transition: .9s;
+}
+
+.banner-list__text-one {
+    font-family: Arial;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 141.02px;
+    text-align: center;
+    color: var(--main-purple-light, #CD06FF);
+}
+
+.banner-list__text-two {
+    width: 193px;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.5px;
+    text-align: center;
+    color: var(--main-color, #fff);
+}
+
+.banner-list__text-three {
+    font-family: Arial;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 105.76px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--main-purple-light, #CD06FF);
+}
+
+.banner-list__text-four {
+    width: 161px;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.5px;
+    text-align: center;
+    color: var(--main-color, #fff);
+}
+
+.info-list__item:hover {
+    background-color: var(--main-selago, #EADEED);
+    border-color: 3px solid var( --main-indigo, #640AA3);
+    color: var(--main-dark, #1b1a1b);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.info-list__item:active {
+    background-color: var(--main-menu-bg, #6C0287);
+    border-color: 3px solid var(--main-color, #fff);
+    color: var(--main-color, #fff);
+    transition: .6s;
+}
+
+.info-list__item:focus {
+    background-color: var(--main-color, #fff);
+    border-color: 3px solid var( --main-indigo, #640AA3);
+    color: var(--main-dark, #1b1a1b);
+    transition: .9s;
+}

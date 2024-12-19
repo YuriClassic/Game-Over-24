@@ -1,0 +1,15 @@
+:root {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --main-color: #fff;
+    --main-dark: #1b1a1b;
+    --main-purple: #440F51;
+    --main-purple-light: #CD06FF;
+    --main-menu-bg: #6C0287;
+    --main-indigo: #640AA3;
+    --main-dark-magenta: #840AA3;
+    --main-selago: #EADEED;
+    --main-silver: #C4C4C4;
+    --main-polo-blue: #7e9bbd;
+    --main-cerulean-blue: #1647ed;
+}

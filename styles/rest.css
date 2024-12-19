@@ -1,0 +1,108 @@
+.rest {}
+
+.recreation {}
+
+.recreation__article {
+    width: 980px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.recreation__title {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: var(--main-color, #fff);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.recreation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recreation-list__item1 {
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 228px;
+}
+.recreation-list__item2 {
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 228px;
+    transform: translateY(70px);
+}
+.recreation-list__item3 {
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 228px;
+}
+.recreation-list__item4 {
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 228px;
+}
+.recreation-list__item5 {
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 228px;
+    transform: translateY(70px);
+}
+.recreation-list__item6 {
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 228px;
+}
+
+
+
+.recreation-list__figure {
+    position: relative;
+}
+
+.recreation-list__figcaption {
+    position: absolute;
+    left: 40px;
+    top: 166px;
+}
+
+.recreation-list {
+    transition-duration: 200ms;
+    transition-property: width, height;
+}
+
+.recreation-list__item1:hover {
+    transition-timing-function: linear;
+    transition: .3s;
+    transform: scale(1.1);
+}
+.recreation-list__item2:hover {
+    transition-timing-function: linear;
+    transition: .6s;
+    transform: scale(1.1);
+}
+.recreation-list__item3:hover {
+    transition-timing-function: linear;
+    transition: .3s;
+    transform: scale(1.1);
+}
+.recreation-list__item4:hover {
+    transition-timing-function: linear;
+    transition: .3s;
+    transform: scale(1.1);
+}
+.recreation-list__item5:hover {
+    transition-timing-function: linear;
+    transition: .6s;
+    transform: scale(1.1);
+}
+.recreation-list__item6:hover {
+    transition-timing-function: linear;
+    transition: .3s;
+    transform: scale(1.1);
+}

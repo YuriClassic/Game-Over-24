@@ -1,0 +1,412 @@
+.rezerv {
+    
+    background-color: var(--main-purple, #440F51); 
+    margin: 0 auto;
+}
+
+.bron-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bron-btn__btn {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--main-color, #fff);
+    color: var(--main-menu-bg, #6C0287);
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bron-btn__btn:hover {
+    background-color: var(--main-selago, #EADEED); 
+    border: 3px solid var(--main-menu-bg, #6C0287);
+    color: var(--main-menu-bg, #6C0287);
+    transition: .2s;
+}
+
+.bron-btn__btn:active {
+    background-color: var(--main-selago, #EADEED); 
+    transition: .2s;
+}
+
+.bron-btn__btn:focus {
+    background-color: var(--main-color, #fff);
+    border: 3px solid var(--main-menu-bg, #6C0287);
+    color: var(--main-menu-bg, #6C0287);
+    transition: .2s;
+} 
+
+.rezerv-form__legend {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.rezerv-kit {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+fieldset {
+    border: none;
+}
+
+.rooms {
+    display: flex;
+    column-gap: 60px;    
+    justify-content: space-between;    
+    flex-wrap: wrap;
+}
+
+.rooms__radio_custom {
+    display: none;
+}
+
+.rooms__label {
+    cursor: pointer;    
+    background-color: var(--main-color, #fff);    
+    color: var(--main-dark, #1b1a1b);    
+    font-weight: 700;    
+    font-size: 30px;    
+    line-height: 40px;    
+    text-transform: uppercase;    
+    border-radius: 8px;    
+    position: relative;    
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    
+    flex-grow: 0;    
+    flex-shrink: 1;    
+    flex-basis: 250px;    
+    text-align: center;    
+    align-items: center;    
+    border: 3px solid transparent;    
+    max-height: 55px;    
+    height: 55px;
+}
+.rooms__label:focus {
+    outline-offset: 3px;    
+    outline-width: 3px;    
+    outline-color: var(--main-indigo, #640AA3);
+    transition: .3s;
+}
+
+.rooms__label:hover {
+    border: 3px solid var(--main-indigo, #640AA3);    
+    background-color: var(--main-selago, #EADEED);
+    transition: .6s;
+}
+
+.rooms__label:active {
+    background-color: var(--main-indigo, #640AA3);   
+    border: 3px solid var(--main-color, #fff);   
+    color: var(--main-color);
+    transition: .9s;
+}
+
+/* Checked */.rooms__radio_custom:checked+label {
+    background-color: var(--main-menu-bg, #6C0287);   
+    border: 3px solid var(--main-color, #fff);    
+    color: var(--main-color);
+}
+
+.rezerv-form__fieldset {
+    margin-bottom: 60px;
+}
+
+.rezerv-form__kit {
+    display: flex;
+    margin-bottom: 60px;
+    padding-left: 100px;
+    gap: 100px;
+}
+
+
+.rezerv-form__kit2 {
+
+    gap: 50px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.rezerv-form {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 23px;
+}
+
+.rezerv-form__game {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.3px;
+    text-align: left;
+}
+
+.rezerv__checkbox {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.3px;
+    text-align: left;
+}
+
+.rezerv-form1 {
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+}
+
+.rezerv-form2 {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.rezerv-form3 {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.rezerv-date-time {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.rezerv-form__kit2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.rezerv-form4 {
+    width: 300px;
+    padding-top: 22px;
+}
+
+.rezerv-form5 {
+    display: flex;
+    width: 300px;
+    height: 52px;
+    gap: 32px;
+    margin-bottom: 36px;
+}
+
+.rezerv-form__data {
+    padding: 12px 27px 12px 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #211E1E;
+}
+
+.rezerv-form__time {
+    padding: 12px 27px 12px 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #211E1E;
+}
+
+.rezerv-form__number {
+    padding: 12px 27px 12px 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #211E1E;
+}
+
+.rezerv-form6 {
+    width: 300px;
+}
+
+.rezerv-form7 {
+    width: 280px;
+}
+
+.rezerv-form8 {
+    width: 280px;
+    height: 74px;
+    margin-bottom: 14px;
+}
+
+.rezerv-form9 {
+    width: 280px;
+    height: 74px;
+}
+
+.rezerv-form10 {
+    width: 300px;
+}
+
+.rezerv-form11 {
+    width: 300px;
+    height: 74px;
+    margin-bottom: 14px;
+}
+
+.rezerv-form12 {
+    width: 300px;
+    height: 74px;
+    margin-bottom: 40px;
+}
+
+.p-text {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.rezerv-form__data {
+    width: 134px;
+    height: 52px;
+}
+
+.rezerv-form__time {
+    width: 134px;
+    height: 52px;
+
+}
+
+.rezerv-form__number {
+    width: 300px;
+    height: 52px;
+}
+
+.rezerv-form__name {
+    width: 280px;
+    height: 52px;
+    margin-bottom: 36px;
+}
+
+.rezerv-form__surname {
+    width: 280px;
+    height: 52px;
+}
+
+.rezerv-form__phone {
+    width: 300px;
+    height: 52px;
+}
+
+.rezerv-form__mail {
+    width: 300px;
+    height: 52px;
+}
+
+.rezerv-form__phone:focus {
+    border: 2px solid var(--main-purple-light, #CD06FF);
+    transition: .3s;
+}
+
+.real-radio {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background: #FFFFFF;
+    border: 2px solid var(--main-polo-blue, #7e9bbd);
+    border-radius: 50%;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    vertical-align: text-top;
+}
+
+.custom-radio::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: var(--main-cerulean-blue, #1647ed);
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .2s ease-in;
+    /*display: none;*/
+}
+
+.real-radio:checked + .custom-radio::before {
+    /*display: inline-block;*/
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.real-radio:focus + .custom-radio {
+    border: 1px solid var(--main-purple-light, #CD06FF);
+}
+
+.real-checkbox {
+   width: 0;
+   height: 0;
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+
+.custom-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    vertical-align: text-top;
+}
+
+.custom-checkbox::before {
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/flex/checkbox.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .2s ease-in;
+}
+
+.real-checkbox:checked + .custom-checkbox::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.real-checkbox:focus + .custom-checkbox {
+    border: 1px solid var(--main-purple-light, #CD06FF);
+}
+     
